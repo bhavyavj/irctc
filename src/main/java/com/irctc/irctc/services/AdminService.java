@@ -1,7 +1,7 @@
 package com.irctc.irctc.services;
 
 
-import com.irctc.irctc.DTO.UpdateCoaches;
+import com.irctc.irctc.dto.UpdateCoaches;
 import com.irctc.irctc.entities.Train;
 import org.springframework.stereotype.Service;
 

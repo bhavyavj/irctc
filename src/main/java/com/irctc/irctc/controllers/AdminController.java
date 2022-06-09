@@ -1,6 +1,6 @@
 package com.irctc.irctc.controllers;
 
-import com.irctc.irctc.DTO.UpdateCoaches;
+import com.irctc.irctc.dto.UpdateCoaches;
 import com.irctc.irctc.entities.Train;
 import com.irctc.irctc.services.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;

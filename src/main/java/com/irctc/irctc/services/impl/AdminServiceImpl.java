@@ -1,6 +1,6 @@
 package com.irctc.irctc.services.impl;
 
-import com.irctc.irctc.DTO.UpdateCoaches;
+import com.irctc.irctc.dto.UpdateCoaches;
 import com.irctc.irctc.dao.AdminDao;
 import com.irctc.irctc.dao.TrainDao;
 import com.irctc.irctc.entities.Train;
