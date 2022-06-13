@@ -15,12 +15,11 @@ import javax.persistence.Entity;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@DynamicUpdate
+
 public class Admin {
 
     @Id
-    @Column
-    private Long Id;
+    private long Id;
     @Column
     private String Aname;
     @Column

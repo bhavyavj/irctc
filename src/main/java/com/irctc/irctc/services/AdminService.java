@@ -5,7 +5,7 @@ import com.irctc.irctc.dto.UpdateCoaches;
 import com.irctc.irctc.entities.Train;
 import org.springframework.stereotype.Service;
 
-@Service
+
 public interface AdminService {
     public Train getTrain(Long id);
 

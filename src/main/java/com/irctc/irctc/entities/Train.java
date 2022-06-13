@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.DynamicUpdate;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -16,13 +17,17 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@DynamicUpdate
+
 public class Train {
     @Id
     private Long Id;
+    @Column
     private String name;
+    @Column
     private int AC;
+    @Column
     private int NAC;
+    @Column
     private int ST;
 
 

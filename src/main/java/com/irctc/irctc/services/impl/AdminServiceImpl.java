@@ -11,10 +11,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class AdminServiceImpl implements AdminService {
 
-   @Autowired(required=false)
+   @Autowired
    private AdminDao adminDao;
 
-    @Autowired(required=false)
+    @Autowired
     private TrainDao trainDao;
     @Override
     public Train addTrain(Train train)

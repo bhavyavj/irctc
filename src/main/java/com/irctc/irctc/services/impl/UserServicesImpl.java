@@ -53,7 +53,7 @@ public class UserServicesImpl implements UserService {
 
 
         trainDao.save(t);
-        userDao.save();
+        userDao.save(users);
 
         return users;
     }
